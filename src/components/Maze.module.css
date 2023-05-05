@@ -1,0 +1,15 @@
+/* Maze.module.css */
+.mazeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b3f3e; /* Slightly lighter dark background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.canvas {
+    border: 2px solid #21ff00;
+    border-radius: 5px;
+}
