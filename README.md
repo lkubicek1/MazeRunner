@@ -35,5 +35,28 @@ To run Maze Runner locally, follow these steps:
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/<your-github-username>/<your-repo-name>.git
+   ```bash
+   git clone https://github.com/lkubicek1/maze-runner.git
+   ```
+
+2. Change to the project directory:
+
+   ```bash
+   cd maze-runner
+   ```
+
+3. Install the required dependencies:
+
+   ```bash
+   npm install
+   ```
+   
+4. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+5. Open your browser and navigate to **http://localhost:3000** to start playing Maze Runner.
+
+Have fun exploring the maze and learning about the recursive backtracking algorithm!
