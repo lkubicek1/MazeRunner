@@ -46,10 +46,7 @@ function App(callback, deps) {
 
     const reset = () => {
 
-        if(inputWidth < 20 || inputHeight < 20) {
-            setInputError(true);
-        }
-        else
+        if(20 <= inputWidth && inputWidth <= 200 && 20 <= inputHeight && inputHeight <= 200)
         {
             setInputError(false);
             setWon(false);
@@ -59,6 +56,10 @@ function App(callback, deps) {
             const newMaze = createMaze(player.x, player.y, inputWidth, inputHeight);
             setMaze(newMaze);
             setInputChanged(false);
+        }
+        else
+        {
+            setInputError(true);
         }
     };
 
